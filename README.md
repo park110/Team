@@ -19,12 +19,14 @@
  - lottery_driver.py 를 이용하여 lottery.html 파일 생성 완료(05/25)
 
 @ 사용 방법
-1. lottery file 3개를 한 폴더에 합친다
-2. visual studio code 또는 파이참 실행
-3. lottery.py 들어가서 print 부분 자신이 원하는 숫자로 변경하기
-4. save 후 lottery_driver.py 실행
-5. lottery.html 실행
-6. 결과 확인
+1. lottery.py 와 lottery_driver.py 2개를 한 폴더에 추가
+2. lottery_driver.py 실행
+3. lottery.html 생성됨
+4. lottery.html 실행
+5. 결과 확인
+- lottery.py 들어가서 print 부분 자신이 원하는 숫자로 변경하기
+- save 후 lottery_driver.py 실행
+
 
 @ 규칙
 - 번호는 1부터 45까지 설정되어 있다.
