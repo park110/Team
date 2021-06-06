@@ -81,3 +81,5 @@ for b in buttons :
     entry.grid(row=0, column=0, columnspan=10)
     
 window.mainloop()
+
+/ 버튼을 이용해서 로또 시뮬
