@@ -1,6 +1,6 @@
 import random
 
-# 번호 뽑기 함수
+#번호 뽑기 함수
 def generate_numbers(n):
     random_list = []
     while len(random_list) < n:
@@ -10,20 +10,20 @@ def generate_numbers(n):
     return random_list
 
 
-# 당첨 번호 뽑기
+#당첨 번호 뽑기
 def draw_winning_numbers():
     winning_numbers = generate_numbers(7)
     return sorted(winning_numbers[:6]) + winning_numbers[6:]
 
 
-# 겹치는 번호 개수
+#겹치는 번호 개수
 def count_matching_numbers(list_1, list_2):
     s1 = set(list_1)
     s2 = set(list_2)
     return len(s1 & s2)
 
 
-# 당첨금 확인
+#당첨금 확인
 def check(numbers, winning_numbers):
     count = count_matching_numbers(numbers, winning_numbers[:6])
     bonus_matching = count_matching_numbers(numbers, winning_numbers[6:])
@@ -40,3 +40,46 @@ def check(numbers, winning_numbers):
         return 5000
     else:
         return 0
+		
+		로또 시뮬레이션 버튼
+		from tkinter import *
+
+def click(key) :
+    if key == '자동선택' :
+        try :
+            result = eval(entry.get())
+            entry.delete(0, END)
+            entry.insert(END, str(result))
+        except :
+            entry.insert(END, "오류!!!!!!")
+    elif key == '초기화' :
+        entry.delete(0, END)
+    else :
+        entry.insert(END, key)
+
+window = Tk()
+window.title("로또 시뮬레이션")
+
+buttons = ['1', '2', '3', '4', '5', '6', '7',
+           '8', '9', '10', '11', '12', '13', '14',
+           '15', '16', '17', '18', '19', '20', '21',
+           '22', '23', '24', '25', '26', '27', '28',
+           '29', '30', '31', '32', '33', '34', '35',
+           '36', '37', '38', '39', '40', '41', '42',
+           '43', '44', '45', ' ', ' ', ' ', ' ',
+           ' ', '초기화', ' ', ' ', '자동선택', ' ', ' ']
+
+i = 0
+for b in buttons :
+    cmd = lambda x=b : click(x)
+    but = Button(window, text=b, width=7,
+                 relief='ridge', command=cmd)
+    but.grid(row=i//7+1, column=i%7)
+    i += 1
+    
+    entry = Entry(window, width=30, bg='yellow')
+    entry.grid(row=0, column=0, columnspan=10)
+    
+window.mainloop()
+
+/ 버튼을 이용해서 로또 시뮬
