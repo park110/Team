@@ -105,11 +105,11 @@ topFrame.pack(side = TOP)
 bottomFrame = Frame(win)
 bottomFrame.pack(side = BOTTOM)
 
-win.title("로또 시뮬레이션")
+win.title("포춘 쿠키")
 win.geometry("320x350")
 
 # 버튼 붙이기
-button = tkinter.Button(leftFrame, text="1", font=("System", 20),  width=7, command=click_button)
+button = tkinter.Button(leftFrame, text="1", font=("System", 20), bg="yellow", width=7, command=click_button)
 button.pack()
 
 button2 = tkinter.Button(leftFrame, text="2", font=("System", 20), width=7, command=click_button2)
@@ -139,7 +139,7 @@ button9.pack()
 button10 = tkinter.Button(leftFrame, text="10", font=("System", 20), width=7, command=click_button10)
 button10.pack()
 
-button11 = tkinter.Button(topFrame, text="11", font=("System", 20), width=7, command=click_button11)
+button11 = tkinter.Button(topFrame, text="11", font=("System", 20), bg="blue", width=7, command=click_button11)
 button11.pack()
 
 button12 = tkinter.Button(topFrame, text="12", font=("System", 20), width=7, command=click_button12)
@@ -169,7 +169,7 @@ button19.pack()
 button20 = tkinter.Button(topFrame, text="20", font=("System", 20), width=7, command=click_button20)
 button20.pack()
 
-button21 = tkinter.Button(rightFrame, text="21", font=("System", 20), width=7, command=click_button21)
+button21 = tkinter.Button(rightFrame, text="21", font=("System", 20), bg="white", width=7, command=click_button21)
 button21.pack()
 
 button22 = tkinter.Button(rightFrame, text="22", font=("System", 20), width=7, command=click_button22)
