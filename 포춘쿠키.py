@@ -169,7 +169,7 @@ button19.pack()
 button20 = tkinter.Button(topFrame, text="20", font=("System", 20), width=7, bg="aliceblue", relief='ridge', command=click_button20)
 button20.pack()
 
-button21 = tkinter.Button(rightFrame, text="21", font=("System", 20), bg="lavenderblush", relief='ridge', width=7, command=click_button21)
+button21 = tkinter.Button(rightFrame, text="운동", font=("System", 20), bg="lavenderblush", relief='ridge', width=7, command=click_button21)
 button21.pack()
 
 button22 = tkinter.Button(rightFrame, text="22", font=("System", 20), bg="lavenderblush", relief='ridge', width=7, command=click_button22)
