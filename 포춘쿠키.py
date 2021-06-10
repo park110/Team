@@ -109,94 +109,94 @@ win.title("포춘 쿠키")
 win.geometry("320x350")
 
 # 버튼 붙이기
-button = tkinter.Button(leftFrame, text="1", font=("System", 20), bg="yellow", width=7, command=click_button)
+button = tkinter.Button(leftFrame, text="1", font=("System", 20), bg="yellow", relief='ridge', width=7, command=click_button)
 button.pack()
 
-button2 = tkinter.Button(leftFrame, text="2", font=("System", 20), bg="yellow", width=7, command=click_button2)
+button2 = tkinter.Button(leftFrame, text="2", font=("System", 20), bg="yellow", width=7, relief='ridge', command=click_button2)
 button2.pack()
 
-button3 = tkinter.Button(leftFrame, text="3", font=("System", 20), bg="yellow", width=7, command=click_button3)
+button3 = tkinter.Button(leftFrame, text="3", font=("System", 20), bg="yellow", width=7, relief='ridge', command=click_button3)
 button3.pack()
 
-button4 = tkinter.Button(leftFrame, text="4", font=("System", 20), bg="yellow", width=7, command=click_button4)
+button4 = tkinter.Button(leftFrame, text="4", font=("System", 20), bg="yellow", width=7, relief='ridge', command=click_button4)
 button4.pack()
 
-button5 = tkinter.Button(leftFrame, text="5", font=("System", 20), bg="yellow", width=7, command=click_button5)
+button5 = tkinter.Button(leftFrame, text="5", font=("System", 20), bg="yellow", width=7, relief='ridge', command=click_button5)
 button5.pack()
 
-button6 = tkinter.Button(leftFrame, text="6", font=("System", 20), bg="yellow", width=7, command=click_button6)
+button6 = tkinter.Button(leftFrame, text="6", font=("System", 20), bg="yellow", width=7, relief='ridge', command=click_button6)
 button6.pack()
 
-button7 = tkinter.Button(leftFrame, text="7", font=("System", 20), bg="yellow", width=7, command=click_button7)
+button7 = tkinter.Button(leftFrame, text="7", font=("System", 20), bg="yellow", width=7, relief='ridge', command=click_button7)
 button7.pack()
 
-button8 = tkinter.Button(leftFrame, text="8", font=("System", 20), bg="yellow", width=7, command=click_button8)
+button8 = tkinter.Button(leftFrame, text="8", font=("System", 20), bg="yellow", width=7, relief='ridge', command=click_button8)
 button8.pack()
 
-button9 = tkinter.Button(leftFrame, text="9", font=("System", 20), bg="yellow", width=7, command=click_button9)
+button9 = tkinter.Button(leftFrame, text="9", font=("System", 20), bg="yellow", width=7, relief='ridge', command=click_button9)
 button9.pack()
 
-button10 = tkinter.Button(leftFrame, text="10", font=("System", 20), bg="yellow", width=7, command=click_button10)
+button10 = tkinter.Button(leftFrame, text="10", font=("System", 20), bg="yellow", width=7, relief='ridge', command=click_button10)
 button10.pack()
 
-button11 = tkinter.Button(topFrame, text="추천책", font=("System", 20), bg="blue", width=7, command=click_button11)
+button11 = tkinter.Button(topFrame, text="11", font=("System", 20), bg="aliceblue", width=7, relief='ridge', command=click_button11)
 button11.pack()
 
-button12 = tkinter.Button(topFrame, text="12", font=("System", 20), width=7, command=click_button12)
+button12 = tkinter.Button(topFrame, text="12", font=("System", 20), width=7, bg="aliceblue", relief='ridge',  command=click_button12)
 button12.pack()
 
-button13 = tkinter.Button(topFrame, text="13", font=("System", 20), width=7, command=click_button13)
+button13 = tkinter.Button(topFrame, text="13", font=("System", 20), width=7, bg="aliceblue", relief='ridge', command=click_button13)
 button13.pack()
 
-button14 = tkinter.Button(topFrame, text="14", font=("System", 20), width=7, command=click_button14)
+button14 = tkinter.Button(topFrame, text="14", font=("System", 20), width=7, bg="aliceblue", relief='ridge', command=click_button14)
 button14.pack()
 
-button15 = tkinter.Button(topFrame, text="15", font=("System", 20), width=7, command=click_button15)
+button15 = tkinter.Button(topFrame, text="15", font=("System", 20), width=7, bg="aliceblue", relief='ridge', command=click_button15)
 button15.pack()
 
-button16 = tkinter.Button(topFrame, text="16", font=("System", 20), width=7, command=click_button16)
+button16 = tkinter.Button(topFrame, text="16", font=("System", 20), width=7, bg="aliceblue", relief='ridge', command=click_button16)
 button16.pack()
 
-button17 = tkinter.Button(topFrame, text="17", font=("System", 20), width=7, command=click_button17)
+button17 = tkinter.Button(topFrame, text="17", font=("System", 20), width=7, bg="aliceblue", relief='ridge', command=click_button17)
 button17.pack()
 
-button18 = tkinter.Button(topFrame, text="18", font=("System", 20), width=7, command=click_button18)
+button18 = tkinter.Button(topFrame, text="18", font=("System", 20), width=7, bg="aliceblue", relief='ridge', command=click_button18)
 button18.pack()
 
-button19 = tkinter.Button(topFrame, text="19", font=("System", 20), width=7, command=click_button19)
+button19 = tkinter.Button(topFrame, text="19", font=("System", 20), width=7, bg="aliceblue", relief='ridge', command=click_button19)
 button19.pack()
 
-button20 = tkinter.Button(topFrame, text="20", font=("System", 20), width=7, command=click_button20)
+button20 = tkinter.Button(topFrame, text="20", font=("System", 20), width=7, bg="aliceblue", relief='ridge', command=click_button20)
 button20.pack()
 
-button21 = tkinter.Button(rightFrame, text="운동", font=("System", 20), bg="white", width=7, command=click_button21)
+button21 = tkinter.Button(rightFrame, text="21", font=("System", 20), bg="lavenderblush", relief='ridge', width=7, command=click_button21)
 button21.pack()
 
-button22 = tkinter.Button(rightFrame, text="22", font=("System", 20), width=7, command=click_button22)
+button22 = tkinter.Button(rightFrame, text="22", font=("System", 20), bg="lavenderblush", relief='ridge', width=7, command=click_button22)
 button22.pack()
 
-button23 = tkinter.Button(rightFrame, text="23", font=("System", 20), width=7, command=click_button23)
+button23 = tkinter.Button(rightFrame, text="23", font=("System", 20), bg="lavenderblush", relief='ridge', width=7, command=click_button23)
 button23.pack()
 
-button24 = tkinter.Button(rightFrame, text="24", font=("System", 20), width=7, command=click_button24)
+button24 = tkinter.Button(rightFrame, text="24", font=("System", 20), bg="lavenderblush", relief='ridge', width=7, command=click_button24)
 button24.pack()
 
-button25 = tkinter.Button(rightFrame, text="25", font=("System", 20), width=7, command=click_button25)
+button25 = tkinter.Button(rightFrame, text="25", font=("System", 20), bg="lavenderblush", relief='ridge', width=7, command=click_button25)
 button25.pack()
 
-button26 = tkinter.Button(rightFrame, text="26", font=("System", 20), width=7, command=click_button26)
+button26 = tkinter.Button(rightFrame, text="26", font=("System", 20), bg="lavenderblush", relief='ridge', width=7, command=click_button26)
 button26.pack()
 
-button27 = tkinter.Button(rightFrame, text="27", font=("System", 20), width=7, command=click_button27)
+button27 = tkinter.Button(rightFrame, text="27", font=("System", 20), bg="lavenderblush", relief='ridge', width=7, command=click_button27)
 button27.pack()
 
-button28 = tkinter.Button(rightFrame, text="28", font=("System", 20), width=7, command=click_button28)
+button28 = tkinter.Button(rightFrame, text="28", font=("System", 20), bg="lavenderblush", relief='ridge', width=7, command=click_button28)
 button28.pack()
 
-button29 = tkinter.Button(rightFrame, text="29", font=("System", 20), width=7, command=click_button29)
+button29 = tkinter.Button(rightFrame, text="29", font=("System", 20), bg="lavenderblush", relief='ridge', width=7, command=click_button29)
 button29.pack()
 
-button30 = tkinter.Button(rightFrame, text="30", font=("System", 20), width=7, command=click_button30)
+button30 = tkinter.Button(rightFrame, text="30", font=("System", 20), bg="lavenderblush", relief='ridge', width=7, command=click_button30)
 button30.pack()
 
 win.mainloop()
