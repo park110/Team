@@ -1,9 +1,9 @@
 # 팀원
- 1. park110 박찬호
- 2. hongsuwan 홍수완
- 3. jihyeok13 김지혁
- 4. jungjunhyuck 정준혁
- 5. kangjiyeon 강지연
+ - park110 박찬호
+ - hongsuwan 홍수완
+ - jihyeok13 김지혁
+ - jungjunhyuck 정준혁
+ - kangjiyeon 강지연
 
 
 # 역할 
