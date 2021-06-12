@@ -4,34 +4,34 @@ import tkinter.messagebox
 win = tkinter.Tk()
 
 def click_button():
-    msg = tkinter.messagebox.showinfo("포춘쿠키", "나를 죽이지 못하는 고통은 나를 더 강하게 만든다")
+    msg = tkinter.messagebox.showinfo("포춘쿠키", "유일한 선은 앎이요, 유일한 악은 무지이다.")
 
 def click_button2():
-    msg = tkinter.messagebox.showinfo("포춘쿠키", "인연은 만들어 가는 것이다")
+    msg = tkinter.messagebox.showinfo("포춘쿠키", "살기 위해서 먹어야지 먹기 위해서 살아서는 안된다.")
 
 def click_button3():
-    msg = tkinter.messagebox.showinfo("포춘쿠키", "여전할 것인가, 역전할 것인가")
+    msg = tkinter.messagebox.showinfo("포춘쿠키", "죽음은 인간이 받을 수 있는 축복 중 최고의 축복이다.")
 
 def click_button4():
-    msg = tkinter.messagebox.showinfo("포춘쿠키", "이 책의 앞표지와 뒤표지는 너무 멀리 떨어져있다")
+    msg = tkinter.messagebox.showinfo("포춘쿠키", "이 세상에서 영예롭게 사는 가장 위대한 길은 우리가 표방하는 모습이 되는 것이다.")
 
 def click_button5():
-    msg = tkinter.messagebox.showinfo("포춘쿠키", "단순히 읽기 시작했다는 이유만으로 결코 책을 끝까지 읽지마라")
+    msg = tkinter.messagebox.showinfo("포춘쿠키", "바르게, 아름답게, 정의롭게 사는 것은 결국 모두 똑같은 것이다.")
 
 def click_button6():
-    msg = tkinter.messagebox.showinfo("포춘쿠키", "책 없는 방은 영혼 없는 몸과도 같다")
+    msg = tkinter.messagebox.showinfo("포춘쿠키", "사탕발린 칭찬이 아닌 분별있는 애정의 증표로 친구를 사귀어라.")
 
 def click_button7():
-    msg = tkinter.messagebox.showinfo("포춘쿠키", "강인한 신체에 강인한 정신이 깃든다")
+    msg = tkinter.messagebox.showinfo("포춘쿠키", "토론이 끝나면 패자는 중상모략을 하기 마련이다.")
 
 def click_button8():
-    msg = tkinter.messagebox.showinfo("포춘쿠키", "목표를 이루고 싶다면 체력부터 길러라")
+    msg = tkinter.messagebox.showinfo("포춘쿠키", "모든 언행을 칭찬하는 자보다 결점을 친절하게 말해주는 친구를 가까이하라.")
 
 def click_button9():
-    msg = tkinter.messagebox.showinfo("포춘쿠키", "긴 하루 끝에 좋은 책이 기다리고 있다는 생각만으로 그날은 더욱 행복해진다")
+    msg = tkinter.messagebox.showinfo("포춘쿠키", "가장 적은 것으로도 만족하는 사람이 가장 부유한 사람이다.")
 
 def click_button10():
-    msg = tkinter.messagebox.showinfo("포춘쿠키", "내가 우울한 생각의 공격을 받을 때 내 책에 달려가는 일처럼 도움이 되는 것은 없다")
+    msg = tkinter.messagebox.showinfo("포춘쿠키", "무지를 아는 것이 곧 앎의 시작이다.")
 
 def click_button11():
     msg = tkinter.messagebox.showinfo("포춘쿠키", "좋은 책을 읽는다는 것은 과거 몇 세기의 가장 훌륭한 사람들과 이야기를 나누는 것과 같다")
