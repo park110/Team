@@ -34,34 +34,33 @@ def click_button10():
     msg = tkinter.messagebox.showinfo("포춘쿠키", "무지를 아는 것이 곧 앎의 시작이다.")
 
 def click_button11():
-    msg = tkinter.messagebox.showinfo("포춘쿠키", "좋은 책을 읽는다는 것은 과거 몇 세기의 가장 훌륭한 사람들과 이야기를 나누는 것과 같다")
+    msg = tkinter.messagebox.showinfo("포춘쿠키", "할까말까 고민되는 일이 있다면 이것을 했을 때 후회할 것인가 생각해보세요.")
 
 def click_button12():
-    msg = tkinter.messagebox.showinfo("포춘쿠키", "R=VD")
+    msg = tkinter.messagebox.showinfo("포춘쿠키", "삶이 피폐하다고 느낀다면 자신만을 위한 시간을 만드는 게 어떨까요?")
 
 def click_button13():
-    msg = tkinter.messagebox.showinfo("포춘쿠키", "나만이 내 행복을 지킬 수 있다")
+    msg = tkinter.messagebox.showinfo("포춘쿠키", "제일 어려운 것은 시작입니다. 걱정하지 말고 시작을 먼저 해보는 게 어떨까요?")
 
 def click_button14():
-    msg = tkinter.messagebox.showinfo("포춘쿠키", "누군가의 의견은 당신의 현실이 되지 않는다")
+    msg = tkinter.messagebox.showinfo("포춘쿠키", "남과 비교하지 마세요. 자신의 생활에 만족하는 삶이 즐거운 삶입니다.")
 
 def click_button15():
-    msg = tkinter.messagebox.showinfo("포춘쿠키", "우리는 여러가지의 '나'가 될 수 있는 가능성이 있는 사람이다. 그걸 인지하고 있으면 하나 실패하더라도 괜찮다")
+    msg = tkinter.messagebox.showinfo("포춘쿠키", "기회는 사소하게 찾아옵니다 미리 준비해야 그 기회를 잡을 수 있습니다.")
 
 def click_button16():
-    msg = tkinter.messagebox.showinfo("포춘쿠키", "사람이 작게 태어날진 몰라도, 하는 일은 크게 해야지")
-
+    msg = tkinter.messagebox.showinfo("포춘쿠키", "과거를 후회하지 마세요 그 과거가 현재의 멋진 당신을 만든 것입니다.")
 def click_button17():
-    msg = tkinter.messagebox.showinfo("포춘쿠키", "새로운 사람을 내 사람으로 만들 게 아니고, 내 주변에 있는 사람들을 더 내 사람으로 만들어야겠다는 생각이 들었어요")
+    msg = tkinter.messagebox.showinfo("포춘쿠키", "사람을 움직이는 힘은 입이 아니라 귀에서 나옵니다. 잘 들어보세요.")
 
 def click_button18():
-    msg = tkinter.messagebox.showinfo("포춘쿠키", "읽는 것 만큼 쓰는 것을 통해서도 많이 배운다")
+    msg = tkinter.messagebox.showinfo("포춘쿠키", "자제력을 가지는 것이 중요합니다. 얻고 싶은 것이 있다면 자신을 누르고 한 발 물러나세요.")
 
 def click_button19():
-    msg = tkinter.messagebox.showinfo("포춘쿠키", "한계를 설정하지 마라")
+    msg = tkinter.messagebox.showinfo("포춘쿠키", "사랑하는 사람을 마음대로 하려고 하지 마세요. 사랑한다고 전부 가질 수는 없습니다.")
 
 def click_button20():
-    msg = tkinter.messagebox.showinfo("포춘쿠키", "의지는 용기를 만든다")
+    msg = tkinter.messagebox.showinfo("포춘쿠키", "사랑하는 사람에게 사랑한다고 말해주세요. 표현하면 사랑은 배가 됩니다.")
 
 def click_button21():
     msg = tkinter.messagebox.showinfo("포춘쿠키", "좋은 성과를 얻으려면 한 걸음 한 걸음이 힘차고 충실하지 않으면 안 된다")
