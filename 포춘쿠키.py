@@ -63,34 +63,34 @@ def click_button20():
     msg = tkinter.messagebox.showinfo("포춘쿠키", "사랑하는 사람에게 사랑한다고 말해주세요. 표현하면 사랑은 배가 됩니다.")
 
 def click_button21():
-    msg = tkinter.messagebox.showinfo("포춘쿠키", "좋은 성과를 얻으려면 한 걸음 한 걸음이 힘차고 충실하지 않으면 안 된다")
+    msg = tkinter.messagebox.showinfo("포춘쿠키", "달리기를 하기 전, 동적 스트레칭을 충분히 해주면 부상을 방지할 수 있다")
 
 def click_button22():
-    msg = tkinter.messagebox.showinfo("포춘쿠키", "성공의 비결은 단 한 가지, 잘할 수 있는 일에 광적으로 집중하는 것이다")
+    msg = tkinter.messagebox.showinfo("포춘쿠키", "요요현상 없는 건강한 다이어트를 원한다면 기초대사량을 먼저 높여야 한다")
 
 def click_button23():
-    msg = tkinter.messagebox.showinfo("포춘쿠키", "사막이 아름다운 것은 어딘가에 샘이 숨겨져 있기 때문이다")
+    msg = tkinter.messagebox.showinfo("포춘쿠키", "체지방 감량을 목표로 할 시, 유산소운동은 자신의 최대 심박수에 60-80% 강도로 운동을 한다")
 
 def click_button24():
-    msg = tkinter.messagebox.showinfo("포춘쿠키", "성공해서 만족하는 것이 아니다. 만족하고 있었기 때문에 성공한 것이다")
+    msg = tkinter.messagebox.showinfo("포춘쿠키", "운동 시간은 하루 1시간 30분 이내가 가장 효율적이다")
 
 def click_button25():
-    msg = tkinter.messagebox.showinfo("포춘쿠키", "하루 하루를 마지막 날이라고 생각하라")
+    msg = tkinter.messagebox.showinfo("포춘쿠키", "올바른 운동 순서는 워밍업-본 운동-쿨다운 순이다")
 
 def click_button26():
-    msg = tkinter.messagebox.showinfo("포춘쿠키", "'할 수 없다'고 생각하면 이룰 수 없다")
+    msg = tkinter.messagebox.showinfo("포춘쿠키", "근력운동 후 적당한 휴식을 취하지 않을 시, 근육통, 피로유발, 근육 감소 등을 초래할 수 있다")
 
 def click_button27():
-    msg = tkinter.messagebox.showinfo("포춘쿠키", "변화의 첫 걸음은 행동에 옮기는 것이다")
+    msg = tkinter.messagebox.showinfo("포춘쿠키", "운동을 효율적으로 하기 위해서는 운동 목적 및 자신에게 맞는 운동 방법을 찾아야 한다")
 
 def click_button28():
-    msg = tkinter.messagebox.showinfo("포춘쿠키", "시련을 당하면 가능한 한 웃어 넘겨라")
+    msg = tkinter.messagebox.showinfo("포춘쿠키", "초보 운동가는 맨몸 운동이나 가벼운 중량으로 운동하는 프리웨이트가 적합하다")
 
 def click_button29():
-    msg = tkinter.messagebox.showinfo("포춘쿠키", "가장 훌륭한 일은 모험과 도전정신으로 이루어진다")
+    msg = tkinter.messagebox.showinfo("포춘쿠키", "3대 운동이라 불리는 벤치프레스, 스쿼트, 데드리프트는 다양한 근육을 참여시키는 효율성 높은 운동이다")
 
 def click_button30():
-    msg = tkinter.messagebox.showinfo("포춘쿠키", "내 비장의 무기는 아직 손 안에 있다. 그것은 바로 희망이다")
+    msg = tkinter.messagebox.showinfo("포춘쿠키", "무산소 운동과 유산소 운동 순서는 운동 목적에 따라 달라진다")
 
 rightFrame = Frame(win)
 rightFrame.pack(side = RIGHT)
